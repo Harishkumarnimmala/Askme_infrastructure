@@ -1,5 +1,7 @@
 AskMe chatbot using Terraform into Azure Cloud via GitHub actions 
 
+<img src="assets/LLM_Workflow.drawio.png" width="800" height="300">
+
 Infrastructure Resources :
 
 1. Virtual Private Cloud (VPC)
