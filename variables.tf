@@ -41,3 +41,23 @@ variable "vm_name" {
   type = string
   default = "trainvm"
 }
+
+variable "subscription_id" {
+  type = string
+}
+
+variable "tenant_id" {
+  type = string
+}
+
+variable "application_id" {
+   type = string
+}
+
+variable "client_secret" {
+  type = string
+}
+
+variable "secret_id" {
+  type = string
+}
