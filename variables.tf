@@ -61,3 +61,7 @@ variable "client_secret" {
 variable "secret_id" {
   type = string
 }
+
+variable "ssh_public_key" {
+  type = string
+}
