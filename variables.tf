@@ -12,10 +12,11 @@ variable "location" {
 }
 
 variable "container_registry_name" {
-    description = "Name of Azure Container Registry"
-    type = string
-    default = "askmeai_ACR"
+  description = "Name of Azure Container Registry"
+  type        = string
+  default     = "askmeaiactr"  
 }
+
 
 variable "vnet_name" {
   description = "Virtual Network Name"
@@ -65,3 +66,4 @@ variable "secret_id" {
 variable "ssh_public_key" {
   type = string
 }
+
